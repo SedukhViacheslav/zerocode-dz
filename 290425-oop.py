@@ -25,3 +25,10 @@ class Warrior():
         print(f"цвет волос воина - {self.hair_color}")
         print(f"сила воина - {self.power}")
         print(f"выносливость воина - {self.endurance}")
+
+war1 = Warrior("Степа",70, 50, "Коричневый")
+war2 = Warrior("Майк",78, 54, "Чернявый")
+
+print(war1.endurance)
+war1.sleep()
+print(war1.endurance)
