@@ -5,7 +5,7 @@ import sys
 
 # Настройки
 WIDTH, HEIGHT = 1600, 1000
-FPS = 60
+F   PS = 60
 
 # Инициализация Pygame
 pygame.init()
